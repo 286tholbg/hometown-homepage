@@ -1,0 +1,133 @@
+
+/* 
+
+/* CSS HEX */
+/* --dark-liver: #4A4A55ff;
+--old-lace: #F6F1E4ff;
+--silver: #C1C2BFff;
+--snow: #FFFCFFff;
+--spanish-bistre: #786E2Aff; */
+
+/* CSS HSL */
+/* --dark-liver: hsla(240, 7%, 31%, 1);
+--old-lace: hsla(43, 50%, 93%, 1);
+--silver: hsla(80, 2%, 75%, 1);
+--snow: hsla(300, 100%, 99%, 1);
+--spanish-bistre: hsla(52, 48%, 32%, 1); */
+
+/* SCSS HEX */
+/* $dark-liver: #4A4A55ff;
+$old-lace: #F6F1E4ff;
+$silver: #C1C2BFff;
+$snow: #FFFCFFff;
+$spanish-bistre: #786E2Aff; */
+
+/* SCSS HSL */
+/* $dark-liver: hsla(240, 7%, 31%, 1);
+$old-lace: hsla(43, 50%, 93%, 1);
+$silver: hsla(80, 2%, 75%, 1);
+$snow: hsla(300, 100%, 99%, 1);
+$spanish-bistre: hsla(52, 48%, 32%, 1); */
+
+/* SCSS RGB */
+/* $dark-liver: rgba(74, 74, 85, 1);
+$old-lace: rgba(246, 241, 228, 1);
+$silver: rgba(193, 194, 191, 1);
+$snow: rgba(255, 252, 255, 1);
+$spanish-bistre: rgba(120, 110, 42, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-right: linear-gradient(90deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-bottom: linear-gradient(180deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-left: linear-gradient(270deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-top-right: linear-gradient(45deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-bottom-right: linear-gradient(135deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-top-left: linear-gradient(225deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-bottom-left: linear-gradient(315deg, #4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff);
+$gradient-radial: radial-gradient(#4A4A55ff, #F6F1E4ff, #C1C2BFff, #FFFCFFff, #786E2Aff); */
+
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #FFFCFFff;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+section {
+    width: 80%;
+}
+.header--section {
+    background-image: url("./images/melbourne-skyline.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header--title {
+    padding: 20px;
+    background: rgba(9, 9, 9, 0.8);
+    border-radius: 10px;
+}
+.header--description {
+    padding: 20px;
+    width: 500px;
+    background: rgba(9, 9, 9, 0.8);
+    border-radius: 10px;
+    font-weight: 700;
+}
+.main--section {
+    background: #FFFCFFff;
+    color: #112A46;
+    margin-top: 0;
+}
+.main--section,
+.person--section {
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.site--description {
+    width: 200px;
+    text-align: center;
+}
+.person--img {
+    width: 300px;
+}
+.person--description {
+    width: 400px;
+    padding: 40px;
+}
+.person--section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFCFFff;
+}
+.site--img {
+    width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
